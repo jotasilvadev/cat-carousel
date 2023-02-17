@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+}
+.glide {
+    max-height: 900px;
+    max-width: 1440px;
+}
+
+.glide img {
+    width: 100%;
+    border-radius: 20px;
+}
+.header {
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header a {
+    font-size: 50px;
+    color: white;
+}
+.header p {
+    font-size: 50px;
+    color: white;
+    font-family: 'Yatra One', cursive;
+}
+
+@media (max-width: 700px) {
+    .header p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .header {
+        gap: 25px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
